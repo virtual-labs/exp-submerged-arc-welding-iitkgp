@@ -2,38 +2,108 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "In submerged arc welding, the welding current is primarily responsible for:",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
-      },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Generating heat to melt the base metal and filler wire",
+        "b": "Controlling the speed of the welding process",
+        "c": "Providing a shielding gas to protect the weld pool",
+        "d": "Controlling the arc length during welding"
       },
       "correctAnswer": "a",
       "difficulty": "beginner"
     },
-    {
-      "question": "This is a Sample Question 2?",
+ {
+      "question": "Extremely low welding current may lead to",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Insufficient penetration",
+        "b": "Narrow weld bead",
+        "c": "Increased porosity",
+        "d": "Cracks in the weld bead"
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+{
+      "question": "The purpose of controlling the arc voltage in submerged arc welding is to",
+      "answers": {
+        "a": "Regulate welding speed",
+        "b": "Maintain stable arc",
+        "c": "Adjust the electrode size",
+        "d": "Control electrode consumption"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+{
+      "question": "Submerged arc welding is suitable for welding",
+      "answers": {
+        "a": "Thin sheet metal",
+        "b": "Plastic",
+        "c": "Wood",
+        "d": "Thick metal plates"
+      },
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+{
+      "question": "A larger diameter electrode in SAW produces",
+      "answers": {
+        "a": "Higher deposition rate",
+        "b": "Deeper penetration",
+        "c": "Both a & b",
+        "d": "None"
       },
       "correctAnswer": "c",
       "difficulty": "beginner"
+    },
+{
+      "question": "Copper coating of the electrode wire is done to",
+      "answers": {
+        "a": "Increase heat and resistance",
+        "b": "Make it shiny",
+        "c": "Increase conductivity and corrosion resistance",
+        "d": "None of the above"
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+{
+      "question": "Extremely low welding speed leads to",
+      "answers":{ 
+        "a": "Arc blow",
+        "b": "Porosity",
+        "c": "Slag inclusion",
+        "d": "Undercut"
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+{
+      "question": "The current density in submerged arc welding is determined by",
+      "answers":{ 
+        "a": "Electrode diameter",
+        "b": "Flux composition",
+        "c": "Welding voltage",
+        "d": "Welding speed"
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+{
+      "question": "Which of the following factors determines the appropriate welding current for submerged arc welding?",
+      "answers":{ 
+        "a": "Thickness of the base metal",
+        "b": "Welding position",
+        "c": "Type of flux used",
+        "d": "All of the above"
+      },
+      "correctAnswer": "d",
+      "difficulty": "beginner"
     }
-  ]
+]
 }
+
+
+
+
+
