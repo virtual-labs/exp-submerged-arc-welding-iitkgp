@@ -72,90 +72,32 @@ LinkedIn: https://in.linkedin.com/in/akraonandula/
               <li>Repeat the experiment</li>
             </ol>
           </p> 
-          
-
         </div>
         <div class="col-md-1"></div>
       </div>
     </div><br>
 
-    <div class="container p-3 my-5 border">
+    <div class="container p-3 my-5 border text-center">
       <div class="row">
         <div class="col-md-1"></div>
         <div class="col-md-10 ">
-              <ul class="nav nav-pills nav-justified " role="tablist">
-              <li class="nav-item bg-success">
-                  <a class="nav-link" data-bs-toggle="tab" href="#Strt" onclick="$('#inst').hide();"><span class=" h3 text-dark"> Start </span></a>
-              </li> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-              <li class="nav-item bg-danger">
-                  <a class="nav-link" data-bs-toggle="tab" href="#" onclick="window.location.reload();"><span class=" h3 text-dark"> Stop </span></a>
-              </li>
-              </ul><br>
-              <div class="tab-content"><br>
-                  <div id="Strt" class=" p-3 tab-pane"><br><ul class="nav nav-pills nav-justified " role="tablist">
-                      <div class="row btn-group p-1 align-items-center text-center"><br>
-                        <div class="col p-3 border nav-item rounded rounded-3"> <span class="h5 text-primary">Type of operation</span> <br>
-                          <button type="button" class="  rounded-5 btn btn-primary rounded rounded-5">
-                            <a class="nav-link" data-bs-toggle="tab" href="#tj"><span class="h6 text-white"> Submerged Arc Welding </span></a>
-                          </button>
-                        </div> &nbsp; &nbsp;
-                        <div id="tj" class="col nav-item p-3 border rounded rounded-3 fade"> <span class="h5 text-primary">Type of Joint</span> <br>
-                          <button type="button" class="  rounded rounded-5 btn btn-primary rounded rounded-5">
-                            <a class="nav-link" data-bs-toggle="tab" href="#tm"><span class="h6 text-white"> Butt Joint </span></a>
-                          </button>
-                        </div> &nbsp; &nbsp;
-                        <div id="tm" class="col nav-item p-3 border rounded rounded-3 fade"> <span class="h5 text-primary">Type of Material</span> <br>
-                          <button type="button" class="  rounded rounded-5 btn btn-primary rounded rounded-5">
-                            <a class="nav-link" data-bs-toggle="tab" href="#pst"><span class="h6 text-white"> Mild Steel </span></a>
-                          </button>
-                        </div>&nbsp; &nbsp;
-                        <div id="pst" class="col nav-item p-3 border rounded rounded-3 fade"> <span class="h5 text-primary">Electrode type                        </span> <br>
-                          <button type="button" class="  rounded rounded-5 btn btn-primary rounded rounded-5">
-                            <a class="nav-link" data-bs-toggle="tab" href="#tf"><span class="h6 text-white"> Mild Steel </span></a>
-                          </button>
-                        </div>&nbsp; &nbsp;
-                        <div id="tf" class="col nav-item p-3 border rounded rounded-3 fade"> <span class="h5 text-primary">Type of Flux</span> <br>
-                          <button type="button" class="  rounded rounded-5 btn btn-primary rounded rounded-5">
-                            <a class="nav-link" data-bs-toggle="tab" href="#pstr"><span class="h6 text-white"> Silicate based flux                            </span></a>
-                          </button>
-                        </div>
-                        &nbsp; &nbsp;
-                        <div id="pstr" class="col nav-item p-3 border rounded rounded-3 fade">
-                          <button type="button" class="  rounded rounded-5 btn btn-primary rounded rounded-5">
-                            <a class="nav-link" data-bs-toggle="tab" ><span class="h6 text-white"> Start </span></a>
-                          </button>
-                        </div>
-                      </div>
-                      </ul>
-                   </div>
-                  </div>
-                </div>
+                <div id="simst" class="col p-3 border border-3 text-center btn btn-success rounded-pill "> <span class="h4"> Start Welding </span></div>
+        </div>
         <div class="col-md-1"></div>
+      </div>
+    </div>
+    
         <script type="module" src="./js/adisaw.js"></script>
-        <div id="adisim" class="row text-center p-2">
-          <div class="container p-3">
-            <div class="row p-5  text-center">&nbsp;&nbsp;
-                <div id="simst" class="col  p-3 border border-3 text-center btn btn-success rounded-pill "> <span class="h4"> Start </span></div> &nbsp;&nbsp;&nbsp;&nbsp;
-                <div class="col p-3 border border-3 text-center btn btn-danger rounded-pill" onclick="window.location.reload()"><span class="h4"> Reset </span> </div> &nbsp;&nbsp;
-            </div>
-            <div class="row p-3 border border-3 text-center"> 
-                <div class="col-md-1">
-      
-                </div>
-                <div class="col-md-10">
+
+        <div id="adisim" class="container text-center p-2">
+            <div class="row p-3 border border text-center"> 
+                <div class="col-md-12">
                     <div id="adisaw"></div>
                     <div id="adinxt" class="col p-3 border border-3  btn btn-success  rounded-pill"> <span class="h4"> Next </span></div>
                 </div>
-                <div class="col-md-1">
-      
-                </div>
+              </div>
             </div>
-      
-        </div>
-        </div>
-    </div>
-    </div>
-  </div>
+        
   
 
   
