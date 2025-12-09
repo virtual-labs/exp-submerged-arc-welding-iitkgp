@@ -9,11 +9,9 @@ let adiwid=0, adihgt=0;
 $(document).ready(()=>{
 $("#adinxt").hide();
 $("#adisim").hide();
-$("#pstr").click(function(){
-    $('#adisim').show();
-  });
-  $("#simst").click(function(){
+$("#simst").click(function(){
     adisaws(1);
+    $('#adisim').show();
   });
 
   $("#adinxt").click(function(){
@@ -30,9 +28,8 @@ if(a==1){
 }
 else if(a==2){
     $("#adinxt").hide();
-    $("#adisaw").html("<div> <video id=\"adivid\" preload=\"auto\" autoplay>  <source src=\"./images/saw.mp4\" type=\"video/mp4\"> </video></div>");
+    $("#adisaw").html("<div> <video id=\"adivid\" autoplay>  <source src=\"./images/saw.mp4\" type=\"video/mp4\"> </video></div>");
     $("#adivid").width('100%');
-    $("#adivid").playbackRate= 1.5;
     $("#adivid").on("ended",function(){
         $("#adisaw").html("<div> <img class=\"img img-fluid\" src=\"./images/ff.png\" alt=\"Initial Setup\"></div>");
     });
